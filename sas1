@@ -1,0 +1,8 @@
+git checkout -b sas
+git branch
+touch sas{1..5}
+git add sas*
+git commit -m "dev-1" sas*
+ll
+git remote add oigin https://github.com/A-nil23/git-files.git
+git push origin sas
